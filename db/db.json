@@ -1,0 +1,545 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "nombre": "MEDICINA GENERAL",
+      "estado": true
+    },
+    {
+      "id": 2,
+      "nombre": "CARDIOLOGIA",
+      "estado": true
+    },
+    {
+      "id": 3,
+      "nombre": "TRAUMATOLOGIA",
+      "estado": true
+    },
+    {
+      "id": 4,
+      "nombre": "GASTROENTEROLOGIA",
+      "estado": true
+    },
+    {
+      "id": 5,
+      "nombre": "PEDIATRIA",
+      "estado": true
+    },
+    {
+      "id": 6,
+      "nombre": "GINECOLOGIA",
+      "estado": true
+    },
+    {
+      "id": 7,
+      "nombre": "RAYOS X",
+      "estado": true
+    },
+    {
+      "id": 8,
+      "nombre": "LABORATORIO",
+      "estado": true
+    },
+    {
+      "id": 9,
+      "nombre": "ECOGRAFIA",
+      "estado": false
+    }
+  ],
+  "medicos": [
+    {
+      "id": 1,
+      "nombres": "Mariana",
+      "apellidos": "Solares Peña",
+      "correo": "msolares@prueba.com",
+      "celular": "70700001",
+      "sexo": "F",
+      "consultorio": "1",
+      "planta": 1,
+      "estado": true,
+      "areaId": 1,
+      "area": {
+        "id": 1,
+        "nombre": "MEDICINA GENERAL",
+        "estado": true
+      }
+    },
+    {
+      "id": 2,
+      "nombres": "Carlos",
+      "apellidos": "Miranda Lopez",
+      "correo": "cmiranda@prueba.com",
+      "celular": "70700002",
+      "sexo": "M",
+      "consultorio": "2",
+      "planta": 1,
+      "estado": true,
+      "areaId": 1
+    },
+    {
+      "id": 3,
+      "nombres": "Ana",
+      "apellidos": "Sanchez Morales",
+      "correo": "asanchez@prueba.com",
+      "celular": "70700003",
+      "sexo": "F",
+      "consultorio": "2",
+      "planta": 1,
+      "estado": true,
+      "areaId": 1
+    },
+    {
+      "id": 4,
+      "nombres": "Daniel",
+      "apellidos": "Chuquimia Luna",
+      "correo": "dchuquimia@prueba.com",
+      "celular": "70700004",
+      "sexo": "M",
+      "consultorio": "1",
+      "planta": 1,
+      "estado": true,
+      "areaId": 1
+    },
+    {
+      "id": 5,
+      "nombres": "Carmen",
+      "apellidos": "Mendez Rios",
+      "correo": "cmendez@prueba.com",
+      "celular": "70700005",
+      "sexo": "F",
+      "consultorio": "1",
+      "planta": 2,
+      "estado": true,
+      "areaId": 2
+    },
+    {
+      "id": 6,
+      "nombres": "Miguel",
+      "apellidos": "Torres Salinas",
+      "correo": "mtorres@prueba.com",
+      "celular": "70700006",
+      "sexo": "M",
+      "consultorio": "2",
+      "planta": 2,
+      "estado": true,
+      "areaId": 3
+    },
+    {
+      "id": 7,
+      "nombres": "Isabel",
+      "apellidos": "Claros Arana",
+      "correo": "iclaros@prueba.com",
+      "celular": "70700007",
+      "sexo": "F",
+      "consultorio": "3",
+      "planta": 2,
+      "estado": true,
+      "areaId": 4
+    },
+    {
+      "id": 8,
+      "nombres": "Paola",
+      "apellidos": "Maldonado Flores",
+      "correo": "pmaldonado@prueba.com",
+      "celular": "70700008",
+      "sexo": "F",
+      "consultorio": "4",
+      "planta": 2,
+      "estado": true,
+      "areaId": 5
+    },
+    {
+      "id": 9,
+      "nombres": "Valeria",
+      "apellidos": "Romero Pereira",
+      "correo": "vromero@prueba.com",
+      "celular": "70700009",
+      "sexo": "F",
+      "consultorio": "5",
+      "planta": 2,
+      "estado": true,
+      "areaId": 6
+    },
+    {
+      "id": 10,
+      "nombres": "Nicolas",
+      "apellidos": "Vargas Mendieta",
+      "correo": "nvargas@prueba.com",
+      "celular": "70700010",
+      "sexo": "M",
+      "consultorio": "2",
+      "planta": 0,
+      "estado": true,
+      "areaId": 7
+    },
+    {
+      "id": 11,
+      "nombres": "Mariela",
+      "apellidos": "Fuentes Lopez",
+      "correo": "mfuentes@prueba.com",
+      "celular": "70700011",
+      "sexo": "F",
+      "consultorio": "1",
+      "planta": 0,
+      "estado": true,
+      "areaId": 8
+    },
+    {
+      "id": 12,
+      "nombres": "Carlos",
+      "apellidos": "Rodriguez Salinas",
+      "correo": "crodriguez@prueba.com",
+      "celular": "70700012",
+      "sexo": "M",
+      "consultorio": "3",
+      "planta": 0,
+      "estado": true,
+      "areaId": 9
+    },
+    {
+      "nombres": "Lorena",
+      "apellidos": "Antezana Rios",
+      "sexo": "F",
+      "celular": "70322222",
+      "correo": "lantenzana@prueba.com",
+      "areaId": 5,
+      "consultorio": "4",
+      "planta": 2,
+      "estado": true,
+      "id": 13,
+      "area": {
+        "id": 5,
+        "nombre": "PEDIATRIA",
+        "estado": true
+      }
+    }
+  ],
+  "pacientes": [
+    {
+      "id": 1,
+      "nombres": "Juan Pablo",
+      "apellidos": "Perez Rojas",
+      "sexo": "M",
+      "correo": "jperez@prueba.com",
+      "celular": "77755555",
+      "fecha_nacimiento": "1990-06-04",
+      "ci": "5555555"
+    },
+    {
+      "id": 2,
+      "nombres": "Ana",
+      "apellidos": "Perez Gonzalez",
+      "sexo": "F",
+      "correo": "aperez@prueba.com",
+      "celular": "77798877",
+      "fecha_nacimiento": "2000-08-16",
+      "ci": "07070707"
+    },
+    {
+      "id": 4,
+      "nombres": "Monica",
+      "apellidos": "Vargas Montero",
+      "sexo": "F",
+      "correo": "nvargas@prueba.com",
+      "celular": "70745187",
+      "fecha_nacimiento": "2015-10-11",
+      "ci": "256478"
+    },
+    {
+      "id": 5,
+      "nombres": "Pedro",
+      "apellidos": "Montero Soliz",
+      "sexo": "M",
+      "correo": "pmontero@prueba.com",
+      "celular": "70748152",
+      "fecha_nacimiento": "1992-07-25",
+      "ci": "78451"
+    },
+    {
+      "id": 6,
+      "nombres": "Jaime",
+      "apellidos": "Aramayo Sanchez",
+      "sexo": "M",
+      "correo": "jaramayo@prueba.com",
+      "celular": "70701012",
+      "fecha_nacimiento": "1986-05-20",
+      "ci": "89546"
+    },
+    {
+      "id": 7,
+      "nombres": "Carla",
+      "apellidos": "Perez Roca",
+      "sexo": "F",
+      "correo": "cperez@pruba.com",
+      "celular": "70752364",
+      "fecha_nacimiento": "1985-02-01",
+      "ci": "85412"
+    },
+    {
+      "id": 8,
+      "nombres": "Angela",
+      "apellidos": "Morales Salas",
+      "sexo": "F",
+      "correo": "amorales@prueba.com",
+      "celular": "79022222",
+      "fecha_nacimiento": "1987-07-17",
+      "ci": "784513"
+    },
+    {
+      "id": 9,
+      "nombres": "Mario",
+      "apellidos": "Vaca Torres",
+      "sexo": "M",
+      "correo": "mvaca@prueba.com",
+      "celular": "70955555",
+      "fecha_nacimiento": "1970-08-14",
+      "ci": "784512"
+    },
+    {
+      "id": 10,
+      "nombres": "Marta",
+      "apellidos": "Costas",
+      "sexo": "F",
+      "correo": "mcostas@prueba.com",
+      "celular": "70988888",
+      "fecha_nacimiento": "1996-01-01",
+      "ci": "78412"
+    },
+    {
+      "id": 11,
+      "nombres": "Marcos",
+      "apellidos": "Villa Rios",
+      "sexo": "M",
+      "correo": "mvilla@prueba.com",
+      "celular": "78451256",
+      "fecha_nacimiento": "1984-09-19",
+      "ci": "145612"
+    },
+    {
+      "id": 12,
+      "nombres": "Armando",
+      "apellidos": "Mendez Murillo",
+      "sexo": "M",
+      "correo": "amendez@prueba.com",
+      "celular": "70956487",
+      "fecha_nacimiento": "2006-12-22",
+      "ci": "84512"
+    },
+    {
+      "id": 13,
+      "nombres": "Sara",
+      "apellidos": "Llanos Lopez",
+      "sexo": "F",
+      "correo": "sllanos@prueba.com",
+      "celular": "70952146",
+      "fecha_nacimiento": "1979-04-26",
+      "ci": "485145"
+    },
+    {
+      "id": 14,
+      "nombres": "Luis",
+      "apellidos": "Soliz Rada",
+      "sexo": "M",
+      "correo": "lsoliz@prueba.com",
+      "celular": "784512",
+      "fecha_nacimiento": "2001-03-11",
+      "ci": "451278"
+    },
+    {
+      "id": 15,
+      "nombres": "Tamara",
+      "apellidos": "Gonzalez Trujillo",
+      "sexo": "F",
+      "correo": "tg@prueba.com",
+      "celular": "7514214",
+      "fecha_nacimiento": "2004-02-29",
+      "ci": "77854222"
+    },
+    {
+      "id": 16,
+      "nombres": "Juan",
+      "apellidos": "Contreras Flores",
+      "sexo": "M",
+      "correo": "jcontreras@prueba.com",
+      "celular": "71919819",
+      "fecha_nacimiento": "1988-12-01",
+      "ci": "58947"
+    },
+    {
+      "id": 17,
+      "nombres": "Luis",
+      "apellidos": "Claros Pinto",
+      "sexo": "M",
+      "correo": "lclaros@prueba.com",
+      "celular": "71717817",
+      "fecha_nacimiento": "1999-05-05",
+      "ci": "789544"
+    },
+    {
+      "id": 18,
+      "nombres": "Alejandra",
+      "apellidos": "Torres Lopez",
+      "sexo": "F",
+      "correo": "atorrez@prueba.com",
+      "celular": "71751247",
+      "fecha_nacimiento": "1970-02-23",
+      "ci": "8564125"
+    },
+    {
+      "id": 19,
+      "nombres": "Wiliam",
+      "apellidos": "Rivero Loza",
+      "sexo": "M",
+      "correo": "wribero@loza.com",
+      "celular": "71122122",
+      "fecha_nacimiento": "1997-09-14",
+      "ci": "568974"
+    },
+    {
+      "id": 20,
+      "nombres": "Marcelo",
+      "apellidos": "Fernadez Suaez",
+      "sexo": "M",
+      "correo": "mfernandez@prueba.com",
+      "celular": "74185421",
+      "fecha_nacimiento": "2010-08-06",
+      "ci": "4578123"
+    },
+    {
+      "id": 21,
+      "nombres": "Tatiana",
+      "apellidos": "Diaz Flores",
+      "sexo": "F",
+      "correo": "tdiaz@prueba.com",
+      "celular": "72256478",
+      "fecha_nacimiento": "2012-04-04",
+      "ci": "98563"
+    },
+    {
+      "id": 22,
+      "nombres": "Carola",
+      "apellidos": "Romero Tarifa",
+      "sexo": "F",
+      "correo": "cromero@pruebas.com",
+      "celular": "72255488",
+      "fecha_nacimiento": "1999-11-02",
+      "ci": "457811"
+    },
+    {
+      "id": 23,
+      "nombres": "Milenka",
+      "apellidos": "Rodriguez Soria",
+      "sexo": "F",
+      "correo": "mrodriguez@prueba.com",
+      "celular": "712457894",
+      "fecha_nacimiento": "2001-03-15",
+      "ci": "956123"
+    },
+    {
+      "id": 24,
+      "nombres": "Vania",
+      "apellidos": "Rios Lopez",
+      "sexo": "F",
+      "correo": "vrios@prueba.com",
+      "celular": "72255447",
+      "fecha_nacimiento": "2001-07-03",
+      "ci": "9564755555"
+    },
+    {
+      "id": 25,
+      "nombres": "Jorge",
+      "apellidos": "Hernandez Costas",
+      "sexo": "M",
+      "correo": "jhernandez@prueba.com",
+      "celular": "733554488",
+      "fecha_nacimiento": "1998-02-26",
+      "ci": "9998777"
+    },
+    {
+      "id": 26,
+      "nombres": "Carolina",
+      "apellidos": "Monje Silva",
+      "sexo": "F",
+      "correo": "smonje@prueba.com",
+      "celular": "79911111",
+      "fecha_nacimiento": "2015-03-04",
+      "ci": "852226"
+    },
+    {
+      "id": 27,
+      "nombres": "Pedro",
+      "apellidos": "Cuellar Miranda",
+      "sexo": "M",
+      "correo": "pcuelllar@prueba.com",
+      "celular": "72584796",
+      "fecha_nacimiento": "1997-05-19",
+      "ci": "624794"
+    }
+  ],
+  "citas": [
+    {
+      "id": 1,
+      "areaId": 5,
+      "medicoId": 8,
+      "pacienteId": 1,
+      "fecha": "2024-08-27",
+      "hora": "12:20"
+    },
+    {
+      "areaId": 1,
+      "pacienteId": 2,
+      "medicoId": 2,
+      "fecha": "2024-08-19",
+      "hora": "13:45",
+      "id": 2
+    },
+    {
+      "areaId": 1,
+      "pacienteId": 22,
+      "medicoId": 1,
+      "fecha": "2024-08-29",
+      "hora": "10:45",
+      "id": 3
+    },
+    {
+      "areaId": 4,
+      "pacienteId": 13,
+      "medicoId": 7,
+      "fecha": "2024-08-19",
+      "hora": "15:00",
+      "id": 5
+    },
+    {
+      "areaId": 3,
+      "pacienteId": 19,
+      "medicoId": 6,
+      "fecha": "2024-08-26",
+      "hora": "17:35",
+      "id": 6
+    },
+    {
+      "areaId": 1,
+      "pacienteId": 2,
+      "medicoId": 1,
+      "fecha": "2024-08-29",
+      "hora": "16:17",
+      "id": 7
+    },
+    {
+      "areaId": 2,
+      "pacienteId": 21,
+      "medicoId": 5,
+      "fecha": "2024-08-30",
+      "hora": "18:25",
+      "id": 8
+    },
+    {
+      "areaId": 8,
+      "pacienteId": 2,
+      "medicoId": 11,
+      "fecha": "2024-08-25",
+      "hora": "07:30",
+      "id": 9
+    }
+  ]
+}
